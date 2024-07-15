@@ -1,0 +1,97 @@
+.register {
+  width: 100vw;
+  height: 100vh;
+
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("https://cdn.hipwallpaper.com/wallpaper/450/One-Piece-Movie-2k-QHD-Wallpaper-31.jpg");
+  background-size: cover;
+  position: relatives;
+
+  .top {
+    .wrapper {
+      padding: 20px 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .logo {
+        height: 40px;
+        cursor: pointer;
+        z-index: 2;
+      }
+
+      .loginButton {
+        padding: 10px 15px;
+        background-color: rgb(244, 23, 23);
+        cursor: pointer;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        font-size: 16px;
+        z-index: 254;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .RegisterContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    h1 {
+      font-size: 50px;
+    }
+
+    h2 {
+      margin: 20px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    .input {
+      margin: 20px 0;
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: white;
+      height: 50px;
+      border-radius: 5px;
+
+      input {
+        flex: 7;
+        height: 100%;
+        border: none;
+        padding: 0 10px;
+        outline: none;
+        font-size: 18px;
+        color: rgb(28, 21, 21);
+      }
+
+      .registerButton {
+        flex: 3;
+        border: none;
+        height: 100%;
+        background-color: rgb(244, 23, 23);
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+  }
+}
